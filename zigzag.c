@@ -26,7 +26,9 @@ int main() {
     char s[100];
     printf("enter a string\n");
     gets(s);
-    int numRows = 3;
+    int numRows;
+    printf("enter the number of rows you want the zigzag pattern to appear!!\n");
+    scanf("%d",&numRows);
     char* converted = convert(s, numRows);
     printf("%s\n", converted);
     free(converted);

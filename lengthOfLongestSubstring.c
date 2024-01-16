@@ -17,6 +17,8 @@ Explanation: The answer is "b", with the length of 1.*/
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <math.h>
 
 int lengthOfLongestSubstring(char* s) {
     int n = strlen(s);
